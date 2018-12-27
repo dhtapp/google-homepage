@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <meta charset="UTF-8">
       <title>Google</title>
    </head>
    <body>
-      <div id="nav-bar">
-         Nav Bar here
+      <div id="upper" class="nav-bar-left">
+         <a href="#">About</a>
+         <a href="#">Store</a>
+      </div>
+      <div id="upper" class="nav-bar-right">
+         <a href="#">Gmail</a>
+         <a href="#">Images</a>
+         <a href="#">Square</a>
+         <a href="#">Circle</a>
+         <a href="#">Circle</a>
       </div>
       <div class="content" id="main">
-         <div>
+         <div id="google-home" alt="google image logo">
             <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Google Image">
          </div>
-         <div>
-            Search bar
+         <div class="search">
+            <form id="form-bar">
+               <input id="search-bar" placeholder="Search Google or type a URL">
+               <img id="microphone" src="https://goo.gl/images/xQLShX">
+            </form>
          </div>
          <div>
             <button type="button">Google Search</button>
             <button type="button">I'm Feeling Lucky</button>
          </div>
       </div>
-      <div id="footer">
-         Footer here
-      </div>
+      <footer>
+         <div id="lower" class="footer-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+         </div>
+         <div id="lower" class="footer-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+         </div>
+      </footer>
    </body>
 </html>
